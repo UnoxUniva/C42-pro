@@ -35,8 +35,8 @@ function preload(){
 }
 
 function draw() {
-  // background(bgImg);  
-  background("white");  
+  background(bgImg);  
+//   background("white");  
   
   // spacecraft.addAnimation(spaceAnimation)
   spacecraft.addAnimation("flying",spaceAnimation)
